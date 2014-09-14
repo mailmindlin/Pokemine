@@ -1,0 +1,74 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+#libraries
+/lib/*.zip
+/lib/*.jar
+/lib/*.tar.gz
+
+#forge stuff
+gradlew
+gradlew.bat
+README.txt
+gradle/*
+build.gradle
+forge-1.7.10-10.13.0.1180-changelog.txt
+
+#eclipse stuff
+#eclipse/.metadata/*
+
+#gradle stuff
+.gradle/*
+
+#generic do-not-push flag (stands for do-not-push-git)
+*.dnp-git.*
