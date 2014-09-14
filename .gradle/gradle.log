@@ -1,0 +1,94 @@
+The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
+
+****************************
+ Powered By MCP:            
+ http://mcp.ocean-labs.de/  
+ Searge, ProfMobius, Fesh0r,
+ R4wk, ZeuX, IngisKahn      
+ MCP Data version : unknown
+****************************
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStart SKIPPED
+:runClient
+[13:28:21] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[13:28:21] [main/INFO] [GradleStart]: Extra: []
+[13:28:21] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Liam/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --username, ForgeDevName]
+[13:28:21] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[13:28:21] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[13:28:21] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[13:28:21] [main/INFO] [FML]: Forge Mod Loader version 7.10.18.1180 for Minecraft 1.7.10 loading
+[13:28:21] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.8.0\jre
+[13:28:21] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:28:21] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:28:21] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[13:28:21] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:28:21] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:28:21] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:28:21] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:28:22] [main/ERROR] [FML]: The minecraft jar file:/C:/Users/Liam/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[13:28:22] [main/ERROR] [FML]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[13:28:22] [main/ERROR] [FML]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Liam/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[13:28:22] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[13:28:22] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:28:22] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[13:28:23] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:28:23] [main/INFO]: Setting user: ForgeDevName
+[13:28:24] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:28:25] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[13:28:25] [Client thread/INFO] [FML]: MinecraftForge v10.13.0.1180 Initialized
+[13:28:25] [Client thread/INFO] [FML]: Replaced 182 ore recipies
+[13:28:25] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[13:28:25] [Client thread/INFO] [FML]: Searching E:\Documents\GitHub\pokemine\eclipse\mods for mods
+[13:28:25] [Client thread/ERROR] [FML]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[13:28:27] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[13:28:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[13:28:27] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[13:28:27] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[13:28:27] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[13:28:28] [Client thread/INFO] [FML]: Applying holder lookups
+[13:28:28] [Client thread/INFO] [FML]: Holder lookups applied
+
+Starting up SoundSystem...
+Initializing LWJGL OpenAL
+    (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+OpenAL initialized.
+
+[13:28:28] [Sound Library Loader/INFO]: Sound engine started
+[13:28:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:28:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+DIRT BLOCK >> tile.dirt
+[13:28:29] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[13:28:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[13:28:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:28:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+
+SoundSystem shutting down...
+    Author: Paul Lamb, www.paulscode.com
+
+
+Starting up SoundSystem...
+Initializing LWJGL OpenAL
+    (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+OpenAL initialized.
+
+[13:28:30] [Sound Library Loader/INFO]: Sound engine started
+[13:29:03] [Client thread/INFO]: Stopping!
+
+SoundSystem shutting down...
+    Author: Paul Lamb, www.paulscode.com
+
+
+BUILD SUCCESSFUL
+
+Total time: 54.185 secs
