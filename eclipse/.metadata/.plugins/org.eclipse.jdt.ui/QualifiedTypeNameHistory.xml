@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="com.pokemine.client.PokeTab"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityThrowable"/>
+<fullyQualifiedTypeName name="com.pokemine.pokemon.battle.Battle"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemEgg"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityEgg"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.EntityRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="com.pokemine.client.model.ModelPokeball"/>
+<fullyQualifiedTypeName name="com.pokemine.entity.EntityPokeball.PokeballFlavor"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.TextureMap"/>
+<fullyQualifiedTypeName name="net.minecraft.util.IIcon"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.pokemine.item.PokeBall"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.TextureAtlasSprite"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.TextureAtlasSpriteFactory"/>
+<fullyQualifiedTypeName name="net.minecraftforge.client.MinecraftForgeClient"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.Havoc"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.Render"/>
+<fullyQualifiedTypeName name="com.pokemine.entity.EntityPokeball"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemDye"/>
+<fullyQualifiedTypeName name="com.pokemine.client.render.RenderPokeball"/>
+<fullyQualifiedTypeName name="com.pokemine.item.PokeBall.PokeballFlavor"/>
+<fullyQualifiedTypeName name="com.pokemine.entity.EntityPokeball.EPClassic"/>
+<fullyQualifiedTypeName name="com.pokemine.entity.EntityPokeball.EPUltra"/>
+<fullyQualifiedTypeName name="com.pokemine.entity.EntityPokeball.EPMaster"/>
+<fullyQualifiedTypeName name="com.pokemine.entity.EntityPokeball.EPSafari"/>
+<fullyQualifiedTypeName name="com.pokemine.CommonProxy"/>
+</qualifiedTypeNameHistroy>

@@ -1,13 +1,12 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "pokeminemod",
+  "name": "Pokemine",
+  "description": "Adds pokemon to minecraft, but better than all of the other mods.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
+  "authorList": ["mailmindlin", "sunny0001"],
   "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],

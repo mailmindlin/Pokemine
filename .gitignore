@@ -39,6 +39,9 @@ Icon
 Thumbs.db
 ehthumbs.db
 
+#Windows script files
+*.bat
+
 # Folder config file
 Desktop.ini
 
@@ -65,10 +68,25 @@ build.gradle
 forge-1.7.10-10.13.0.1180-changelog.txt
 
 #eclipse stuff
-#eclipse/.metadata/*
+eclipse/.metadata/*
+eclipse/crash-reports/*
+eclipse/log/*
+eclipse/saves/*
+eclipse/*
+.project
+.settings/*
+eclipse/Exec/*
 
 #gradle stuff
 .gradle/*
+eclipse/Exec/.gradle/2.0/taskArtifacts/*
 
 #generic do-not-push flag (stands for do-not-push-git)
 *.dnp-git.*
+
+#GIMP 2 source files
+*.xcf
+Textures (Gimp)/*
+
+#gradle files
+.gradle/*
