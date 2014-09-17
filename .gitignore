@@ -84,9 +84,5 @@ eclipse/Exec/.gradle/2.0/taskArtifacts/*
 #generic do-not-push flag (stands for do-not-push-git)
 *.dnp-git.*
 
-#GIMP 2 source files
-*.xcf
-Textures (Gimp)/*
-
 #gradle files
 .gradle/*
