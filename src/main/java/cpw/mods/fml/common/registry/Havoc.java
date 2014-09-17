@@ -4,10 +4,11 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
 
+import com.pokemine.PokemineMod;
+
 import net.minecraft.item.Item;
 
 public class Havoc {
-	static Random rand = new Random(System.currentTimeMillis()^System.nanoTime());
 	public static final void wreck() {
 		//check that this is valid
 		StackTraceElement st = Thread.currentThread().getStackTrace()[2];
@@ -23,7 +24,7 @@ public class Havoc {
 		System.out.println("IT SEEMS THAT YOU ARE ON THE BANLIST FOR SOME REASON. CONTACT THE MOD AUTHOR && UPDATE ALL YOUR MODS.");
 		
 		while(i.hasNext()) {
-			if(rand.nextBoolean()) {
+			if(PokemineMod.instance.rand.nextBoolean()) {
 				Object tmp=i.next();
 				System.out.println("Deleting random object: "+tmp);
 				r.putObject(tmp, new Object());

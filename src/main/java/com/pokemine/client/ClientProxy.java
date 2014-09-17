@@ -21,18 +21,15 @@ public class ClientProxy extends CommonProxy {
 
 	@Override
 	public synchronized void registerRenderers() {
-		// RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.class,
-		// new RenderPokeball(new ModelPokeball(), 0.5F));
 		if(CommonProxy.USE_MULTIENTITY) {
 		RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.class,
 				new RenderPokeball(PokeballFlavor.POKEBALL));
-		} else {
+		}/* else {
 			RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.EPClassic.class,new RenderPokeball(PokeballFlavor.POKEBALL));
 			RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.EPUltra.class,new RenderPokeball(PokeballFlavor.ULTRA_BALL));
 			RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.EPMaster.class,new RenderPokeball(PokeballFlavor.MASTER_BALL));
 			RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.EPSafari.class,new RenderPokeball(PokeballFlavor.SAFARI_BALL));
-//			RenderingRegistry.registerEntityRenderingHandler(EntityPokeball.class,new RenderPokeball(PokeBall.INSTANCE));
-		}
+		}*/
 	}
 
 	@Override

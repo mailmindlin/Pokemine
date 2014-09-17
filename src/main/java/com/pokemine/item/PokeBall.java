@@ -54,7 +54,6 @@ public class PokeBall extends Item {
 			PokeballFlavor flavor = PokeballFlavor.getIndex(itemstack.getItemDamage());
 			if(CommonProxy.USE_MULTIENTITY) {
 				EntityPokeball.preloadFlavor(flavor);
-//				pokeball = new EntityPokeball(world, player);
 				pokeball = new EntityPokeball(world, player, flavor);
 			} else {
 				pokeball = EntityPokeball.makeForFlavor(flavor, world,
@@ -113,7 +112,7 @@ public class PokeBall extends Item {
 
 			}
 		}
-		this.itemIcon = register.registerIcon(this.getIconString());
+//		this.itemIcon = register.registerIcon(this.getIconString());
 	}
 
 	public static PokeballFlavor[] arr = new PokeballFlavor[26];

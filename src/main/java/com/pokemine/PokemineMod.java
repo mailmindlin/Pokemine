@@ -1,5 +1,7 @@
 package com.pokemine;
 
+import java.util.Random;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -16,6 +18,7 @@ public class PokemineMod {
 	public static final String NAME = "Pokemine";
 	public static final String CLIENT_PROXY = "com.pokemine.client.ClientProxy";
 	public static final String COMMON_PROXY = "com.pokemine.CommonProxy";
+	public Random rand = new Random(System.currentTimeMillis()^System.nanoTime());
 	@Instance(value = PokemineMod.MODID)
 	public static PokemineMod instance;
 
