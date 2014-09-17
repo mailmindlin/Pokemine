@@ -69,9 +69,7 @@ public class PokeBall extends Item {
 	public IIcon getIconFromDamage(int dmg) {
 		IIcon ico = PokeballFlavor.getIndex(dmg).icon;
 		if(ico==null)ico=super.getIconFromDamage(dmg);
-		// System.out.println(ico);
 		return ico;
-		// return new IIcon(PokeballFlavor.getIndex(dmg).getTexture());
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -92,8 +90,6 @@ public class PokeBall extends Item {
 	public void getSubItems(Item item, CreativeTabs tab, List list) {
 		// You can also take a more direct approach and do each one individual
 		// but I prefer the lazy / right way
-		System.out.println(tab instanceof PokeTab);
-		System.out.println("\t\t\tBLIUUACVEWAFSCCCCCCCCCCCCCC");
 		for (int i = 0; i < 26; ++i) {
 			list.add(new ItemStack(item, 1, i));
 		}
@@ -112,7 +108,6 @@ public class PokeBall extends Item {
 
 			}
 		}
-//		this.itemIcon = register.registerIcon(this.getIconString());
 	}
 
 	public static PokeballFlavor[] arr = new PokeballFlavor[26];
@@ -172,7 +167,7 @@ public class PokeBall extends Item {
 		}
 
 		public static PokeballFlavor getIndex(int i) {
-			return arr[i];
+			return arr[MathHelper.clamp_int(i,0,arr.length-1)];
 		}
 
 		public IIcon getIcon() {
