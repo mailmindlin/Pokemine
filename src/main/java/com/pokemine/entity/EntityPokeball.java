@@ -66,7 +66,7 @@ public class EntityPokeball extends EntityThrowable {
 			}
 			pos.entityHit.attackEntityFrom(
 					DamageSource.causeThrownDamage(this, this.getThrower()),
-					1.0F);
+					10000.0F);
 		}
 		this.setDead();
 	}
